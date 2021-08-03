@@ -1,4 +1,10 @@
-### Hi there 👋
+### Hi there! 🌌
+
+#ikmxleo here or also known as icyurei 🧊
+#I'm currently working on a web3 development called LuneChain 
+#Currently familiarising myself with Docker 🐳
+**#If you like my work you can support me by purchasing my token LKY/BNB 🌙🗝️ on pancakeswap 0xa9cf3bee132af97249d2d1d8b85a2b03bb24ebc6 or BTC 3QQRANfdTCGbskqCHToXe**
+
 
 <!--
 **4zer0day/4zer0day** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
