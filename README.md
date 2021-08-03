@@ -1,7 +1,7 @@
 ### Hi there! 🌌
 
 ### ikmxleo here or also known as icyurei 🧊
-<i>I'm currently working on a web3 Dapps called LuneChain</i>
+<i><b>I'm currently working on a web3 Dapps called LuneChain<b></i>
 ### Also familiarising myself with Docker 🐳 
 ### If you like my work you can support me by purchasing my token LKY/BNB 🌙🗝️ on pancakeswap 0xa9cf3bee132af97249d2d1d8b85a2b03bb24ebc6 
 ### BTC 3QQRANfdTCGbskqCHToXeI 
