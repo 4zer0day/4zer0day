@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.youtube.com/channel/UCwcM6NM0XuU345burtlRF1Q" target="_blank"><img src="https://lunechain.com/youtube2.png" width="40" height="40" alt="Youtube"></a>
   <a href="https://www.youtube.com/channel/UCwcM6NM0XuU345burtlRF1Q" target="_blank"><img src="https://lunechain.com/twitter2.png" width="50" height="40" alt="Twitter"></a>
-   <a href="https://www.youtube.com/channel/UCwcM6NM0XuU345burtlRF1Q" target="_blank"><img src="https://lunechain.com/docker.png"  alt="Twitter"></a>
+   <a href="https://www.youtube.com/channel/UCwcM6NM0XuU345burtlRF1Q" target="_blank"><img src="https://lunechain.com/docker.png"  width="50" height="50" alt="Docker"></a>
 </p>
 
 <!--
