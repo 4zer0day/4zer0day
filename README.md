@@ -8,7 +8,6 @@
 
 <p align="center">
   <a href="https://www.youtube.com/channel/UCwcM6NM0XuU345burtlRF1Q" target="_blank"><img src="https://lunechain.com/youtube.png" width="80" height="80" alt="Youtube"></a>
-alt="Twitter"></a>
 </p>
 
 <!--
