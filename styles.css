@@ -1,223 +1,69 @@
-
-
-/*-- VARIABLES CSS--*/
-/*Colores*/
-:root{
-    --first-color: #E3F8FF;
-    --second-color: #f4eeff;
-    --third-color: #FFE8DF;
-    --accent-color: #000000;
-    --dark-color: #17182f;
+.glitch {
+	position: relative;
+	color: white;
+	font-size: 4em;
+	letter-spacing: .5em;
+	/* Animation provies a slight random skew. Check bottom of doc
+	for more information on how to random skew. */
+	animation: glitch-skew 1s infinite linear alternate-reverse;
+	
+	// Creates a copy before our text. 
+	&::before{
+		// Duplicates our text with the mixin.
+		@include glitchCopy;
+		// Scoots text slightly to the left for the color offset.
+		left: 2px;
+		// Creates the color 'shadow' that happens on the glitch.
+		text-shadow: -2px 0 #ff00c1;
+		/* Creates an initial clip for our glitch. This works in
+		a typical top,right,bottom,left fashion and creates a mask
+		to only show a certain part of the glitch at a time. */
+		clip: rect(44px, 450px, 56px, 0);
+		/* Runs our glitch-anim defined below to run in a 5s loop, infinitely,
+		with an alternating animation to keep things fresh. */
+		animation: glitch-anim 5s infinite linear alternate-reverse;
+	}
+	
+	// Creates a copy after our text. Note comments from ::before.
+	&::after {
+		@include glitchCopy;
+		left: -2px;
+		text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1;
+		animation: glitch-anim2 1s infinite linear alternate-reverse;
+	}
 }
 
-/*Tipografia responsive*/
-:root{
-    --body-font: 'Open Sans';
-    --h1-font-size: 1.5rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
-    --smaller-font-size: 0.75rem;
-}
-@media screen and (min-width: 768px){
-    :root{
-        --h1-font-size: 2rem;
-        --normal-font-size: 1rem;
-        --smaller-font-size: 0.813rem;
+/* Creates an animation with 20 steaps. For each step, it calculates 
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim {
+  $steps: 20;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+			transform: skew((random(100) / 100) + deg);
     }
-}
-
-/*-- BASE --*/
-*,::after,::before{
-    box-sizing: border-box;
-}
-body{
-    font-family: 'Anonymous Pro', monospace;
-    margin: 2rem 0 0 0;
-
-   /* background-image: linear-gradient(to right,#ddd6f3, #faaca8);*/
-   /* background-image: url("../img/wallpaper.png");*/
-    background-color:  #000;
-    color: var(--dark-color);
-    font-family: var(--body-font);
- 
-}
-
-canvas {
-    display: block;
-    vertical-align: bottom;
   }
+}
 
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+// Same deal, just duplicated for ultra randomness.
+@keyframes glitch-anim2 {
+  $steps: 20;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+			transform: skew((random(100) / 100) + deg);
+    }
   }
-
-h1{
-    font-size: var(--h1-font-size);
-}
-img{
-    max-width: 100%;
-    height: auto;
-}
-a{
-    text-decoration: none;
 }
 
-.btn {
-    font-family: 'Anonymous Pro', monospace;
-    cursor: pointer;
-}
-
-/*-- LAYAOUT --*/
-.main {
-    
-    padding: 2rem 0;
-}
-
-.bd-grid{
-    top: 50;
-    left: 50;
-    margin-top: 50px;
-    display: grid;
- 
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    max-width: 1200px;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    align-items: center;
-    gap: 2rem;
-}
-
-/*-- PAGES --*/
-.title-shop{
-    position: relative;
-    margin: 0 2.5rem;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-/*
-.title-shop::after{
-    content: '';
-    position: absolute;
-    top: 50%;
-    width: 72px;
-    height: 2px;
-    background-color: var(--dark-color);
-    margin-left: .25rem;
-}*/
-
-/*-- COMPONENT --*/
-.card{
-    font-family: 'Anonymous Pro', monospace;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1.5rem 2rem;
-    border-radius: 1rem;
-    overflow: hidden;
-}
-article:nth-child(1){
-    background-color: var(--first-color);
-}
-article:nth-child(2){
-    background-color: var(--second-color);
-}
-article:nth-child(3){
-    background-color: var(--third-color);
-}
-article:nth-child(4){
-    background-color: var(--second-color);
-}
-.card__img{
-    width: 180px;
-    height: auto;
-    padding: 3rem 0;
-    transition: .5s;
-}
-.card__name{
-    position: absolute;
-    left: -25%;
-    top: 0;
-    width: 3.5rem;
-    height: 100%;
-   
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    text-align: center;
-    background-color: var(--dark-color);
-    color: #fff;
-    font-weight: bold;
-    transition: .5s;
-}
-.card__icon{
-    font-size: 1.5rem;
-    color: var(--dark-color);
-}
-.card__icon:hover{
-    color: var(--accent-color);
-}
-.card__precis{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    transition: .5s;
-}
-.card__preci{
-    display: block;
-    text-align: center;
-}
-.card__preci--before{
-    font-family: 'Anonymous Pro', monospace;
-    font-size: var(--smaller-font-size);
-    color: var(--accent-color);
-    margin-bottom: .25rem;
-    font-weight: bold;
-}
-.card__preci--now{
-    font-size: var(--h3-font-size);
-    font-weight: bold;
-}
-/*Move left*/
-.card:hover{
-    box-shadow: 0 .5rem 1rem #D1D9E6;
-}
-.card:hover .card__name{
-    left: 0;
-}
-.card:hover .card__img{
-    transform: rotate(30deg);
-    margin-left: 3.5rem;
-}
-.card:hover .card__precis{
-    margin-left: 3.5rem;
-    padding: 0 1.5rem;
-}
-
-/*-- MEDIA QUERIES --*/
-@media screen and (min-width: 1200px){
-    body{
-        margin: 3rem 0 0 0;
+// Does the same deal as before, but now only skews. Used for main text.
+@keyframes glitch-skew {
+  $steps: 10;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      transform: skew((random(10) - 5) + deg);
     }
-    .title-shop{
-        margin: 0 5rem;
-    }
-    .bd-grid{
-        margin-left: auto;
-        margin-right: auto;
-       
-    }
-}
-
-@media (min-width : 1101px) {
-   
-}
-
-@media (max-width : 1100px) {
-
-    
-  
+  }
 }
