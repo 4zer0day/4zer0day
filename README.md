@@ -1,4 +1,4 @@
-![](images/codewithx.gif)
+![](images/codewithxxx.png)
 
 ### Hi there! 🌌 ADANation
 
