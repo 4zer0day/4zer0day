@@ -11,9 +11,7 @@
 <head>
   
   </head>
-<p align="center">
-  <a href="https://www.youtube.com/channel/UCwcM6NM0XuU345burtlRF1Q" target="_blank"><img src="https://lunechain.com/youtube2.png" width="40" height="40" alt="Youtube"></a>
-</p>
+
 	
 
 <!--
