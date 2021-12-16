@@ -2,7 +2,7 @@
 
 ### Hi there! 🌌 
 
-<h2>4zer0day here / icyurei 🧊</h2>
+<h2>4zer0day here / Leo 🧊</h2>
 <p>23 y/o self learned developer
 <br>Also familiarising myself with Docker 🐳 
 <br>Currrently building on top of Cardano
