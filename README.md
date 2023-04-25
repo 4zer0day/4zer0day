@@ -2,8 +2,8 @@
 
 ### Hi there! 🌌 
 
-<h2>4zer0day here / Leo 🧊</h2>
-<p>23 y/o self learned developer
+<h2>Deadrepo here 🧊</h2>
+<p>25 y/o self learned developer
 <br>Also familiarising myself with Docker 🐳 
 <br>Currrently building on top of Cardano
 <br>If you like my work you can support me by purchasing my token LKY/BNB 🌙🗝️ on pancakeswap 0xa9cf3bee132af97249d2d1d8b85a2b03bb24ebc6 
