@@ -3,8 +3,7 @@
 ### Hi there! 🌌 
 
 <h3>Deadrepo here 🧊</h3>
-<p>25 y/o self learned developer
-<
+<p>25 y/o 
 </p>
 <head>
   
