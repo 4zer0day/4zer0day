@@ -3,28 +3,7 @@
 ### Hi there! 🌌 
 
 ```math
-\ce{$&#x5C;unicode[
-z-index: -10;
-position: fixed;
-top: 0;
-left: 0;
-height: 100vh;
-object-fit: cover;
-background-position: center;
-background-repeat: no-repeat ;
-background-size: cover;
-width: 130vw;
-opacity: 0.5;
 
-height: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-overflow-y: scroll;
-scrollbar-width: none;
-
-background: url('https://github.com/deadrepo/deadrepo/blob/main/images/bleach.jpeg?raw=true');
-]{x0000}$}
 
 ```
 
