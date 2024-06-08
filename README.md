@@ -3,7 +3,7 @@
 ### Hi there! 🌌 
 
 ```math
-\ce{$&#x5C;unicode[color:red;
+\ce{$&#x5C;unicode[
 pointer-events: none;
 z-index: -10;
 position: fixed;
