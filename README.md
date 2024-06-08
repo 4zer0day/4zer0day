@@ -3,7 +3,20 @@
 ### Hi there! 🌌 
 
 ```math
-\ce{$&#x5C;unicode[background: url('https://github.com/deadrepo/deadrepo/blob/main/images/bleach.jpeg?raw=true') no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;]{x0000}$}
+\ce{$&#x5C;unicode[
+z-index: -10;
+position: fixed;
+top: 0;
+left: 0;
+height: 100vh;
+object-fit: cover;
+background-position: center;
+background-repeat: no-repeat ;
+background-size: cover;
+width: 130vw;
+opacity: 0.5;
+background: url('https://github.com/deadrepo/deadrepo/blob/main/images/bleach.jpeg?raw=true');
+]{x0000}$}
 ```
 
 <h3>✦ Deadrepo here </h3>
