@@ -4,6 +4,13 @@
 
 ```math
 \ce{$&#x5C;unicode[
+height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 pointer-events: none;
 z-index: -10;
 position: fixed;
