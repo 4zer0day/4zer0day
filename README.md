@@ -3,29 +3,21 @@
 ### Hi there! 🌌 
 
 ```math
-\ce{$&#x5C;unicode[
-height: 100%;
-    margin: 0;
-    border: 0;
-    padding: 0;
-background-attachment: fixed;
+\ce{$&#x5C;[
+  font-weight: 600;
+    font-size: 1.5rem;
+    overflow-x: hidden !important;
+    background: #000000;
+    background-image: url("https://github.com/deadrepo/deadrepo/blob/main/images/bleach.jpeg") !important;
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-pointer-events: none;
-z-index: -10;
-position: fixed;
-top: 0; left: 0;
-height: 100vh;
-object-fit: cover;
-background-position: center;
-background-repeat: no-repeat ;
-background-size: cover;
-width: 130vw;
-opacity: 0.5;
-background: url('https://github.com/deadrepo/deadrepo/blob/main/images/anime.gif?raw=true');]{x0000}$}
-
-
+    overflow-y: scroll;
+    scrollbar-width: none;
+]{x0000}$}
 ```
+
 <h3>✦ Deadrepo here </h3>
 <p>✦ 25 y/o 
 </p>
