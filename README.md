@@ -3,10 +3,9 @@
 ### Hi there! 🌌 
 
 ```math
-\ce{$&#x5C;[
-  font-weight: 600;
+\ce{$&#x5C;[font-weight: 600;
     font-size: 1.5rem;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
     background: #000000;
     background-image: url("https://github.com/deadrepo/deadrepo/blob/main/images/bleach.jpeg?raw=true");
     height: 100%;
