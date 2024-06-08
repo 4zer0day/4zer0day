@@ -4,17 +4,15 @@
 
 ```math
 \ce{$&#x5C;[
-  font-weight: 600;
-    font-size: 1.5rem;
-    overflow-x: hidden !important;
-    background: #000000;
-    background-image: url("https://github.com/deadrepo/deadrepo/blob/main/images/bleach.jpeg") !important;
     height: 100%;
-    background-position: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-image: url('https://github.com/deadrepo/deadrepo/blob/main/images/bleach.jpeg?raw=true');
+    background-position: center center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: scroll;
-    scrollbar-width: none;
 ]{x0000}$}
 ```
 
