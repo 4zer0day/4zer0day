@@ -8,7 +8,7 @@
     font-size: 1.5rem;
     overflow-x: hidden !important;
     background: #000000;
-    background-image: url("/image/bg.webp") !important;
+    background-image: url("https://github.com/deadrepo/deadrepo/blob/main/images/bleach.jpeg?raw=true");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
