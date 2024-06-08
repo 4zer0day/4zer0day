@@ -4,12 +4,11 @@
 
 ```math
 \ce{$&#x5C;unicode[
-  background: url(https://github.com/deadrepo/deadrepo/blob/main/images/bleach.jpeg) no-repeat center center fixed; 
+  background: url('https://github.com/deadrepo/deadrepo/blob/main/images/bleach.jpeg?raw=true') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-]{x0000}$}
+  background-size: cover;]{x0000}$}
 
 <h3>✦ Deadrepo here </h3>
 <p>✦ 25 y/o 
