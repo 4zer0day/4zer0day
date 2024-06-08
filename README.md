@@ -3,7 +3,7 @@
 ### Hi there! 🌌 
 
 ```math
-\ce{$&#x5C;[font-weight: 600;
+\ce{$&#x5C;unicode[font-weight: 600;
     font-size: 1.5rem;
     overflow-x: hidden;
     background: #000000;
