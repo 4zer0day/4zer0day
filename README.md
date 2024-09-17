@@ -1,4 +1,4 @@
-![](images/deadrepo.jpg)
+![](images/deadrepo.png)
 
 ### Hi there! 🌌 
 
