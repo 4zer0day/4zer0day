@@ -3,7 +3,7 @@
 ### Hi there! 🌌 
 
 <h3>✦ Deadrepo here </h3>
-<p>✦ 25 y/o 
+<p> 
 </p>
 <head>
   
